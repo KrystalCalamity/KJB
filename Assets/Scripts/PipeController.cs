@@ -39,7 +39,7 @@ public class PipeController : MonoBehaviour
             ch2.transform.localScale = new Vector3(1.5f, 251f, 1f);
         }
 
-        if (Score >= 15 && Score <= 24)
+        if (Score >= 10 && Score <= 24)
         {
             rb.velocity = new Vector3(0f, 0f, -6.5f);
             c1.material.SetColor("_BaseColor", Color.red);
